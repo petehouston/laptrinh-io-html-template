@@ -76,8 +76,46 @@ footer .footer-social li.item a {
   font-size: 16px;
 }
 
+.video-card a {
+  position: relative;
+  display: block;
+  transition: color 0.35s ease;
+}
+
 .video-card a:hover {
   text-decoration: none;
+  color: #f64747;
+}
+
+.video-card a:hover .overlay {
+  height: 100%;
+}
+
+.video-card a:hover .overlay i.fa {
+  opacity: 0.9;
+}
+
+.video-card a .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: width 0.35s ease, height 0.35s ease;
+}
+
+.video-card a .overlay i.fa {
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -10px 0 0 -10px;
+  height: 100%;
+  vertical-align: middle;
+  opacity: 0;
+  transition: opacity 0.35s ease;
 }
 
 .video-card .caption {
@@ -5281,8 +5319,8 @@ tbody.collapse.in {
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #f64747;
-  background-color: #384f66;
+  color: #fff;
+  background-color: #f64747;
 }
 
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
@@ -5308,8 +5346,8 @@ tbody.collapse.in {
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #384f66;
-  color: #f64747;
+  background-color: #f64747;
+  color: #fff;
 }
 
 @media (max-width: 767px) {
@@ -5321,8 +5359,8 @@ tbody.collapse.in {
     background-color: #f64747;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #f64747;
-    background-color: #384f66;
+    color: #fff;
+    background-color: #f64747;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #ccc;

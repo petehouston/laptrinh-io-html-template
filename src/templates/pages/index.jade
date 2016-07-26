@@ -1,7 +1,7 @@
 extends ../layouts/master.jade
 
 block title
-    title Pandaa HTML Template by Pete Houston
+    title laptrinh.io - Kênh dạy lập trình chuyên nghiệp miễn phí
 
 block append css
     link(rel="stylesheet", href="css/index.css")
@@ -15,7 +15,7 @@ block content
 
     section#masthead
         .container
-            h1 Kênh dạy lập trình tốt nhất Việt Nam
+            h1 Kênh dạy lập trình chuyên nghiệp miễn phí
             p Miễn phí - Hiệu quả - Sinh động
 
     section#block-featured
@@ -43,6 +43,8 @@ block content
                         .meta
                             .title Intro to Python programming
 
+
+    include ../components/video-card
     section#block-latest
         .container
             .row
@@ -51,29 +53,13 @@ block content
 
             .row
                 .col-md-3
-                    .video-card(href="#")
-                        a(href="#")
-                            img(src="https://unsplash.it/1024/768", alt="", class="img-responsive img-rounded")
-                            .caption
-                                p Học lập trình Perl cơ bản
+                    +video-card("Lập trình Perl cơ bản")
                 .col-md-3
-                    .video-card(href="#")
-                        a(href="#")
-                            img(src="https://unsplash.it/1024/768", alt="", class="img-responsive img-rounded")
-                            .caption
-                                p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque reprehenderit, suscipit molestias.
+                    +video-card("Lập trình Perl cơ bản")
                 .col-md-3
-                    .video-card(href="#")
-                        a(href="#")
-                            img(src="https://unsplash.it/1024/768", alt="", class="img-responsive img-rounded")
-                            .caption
-                                p  Lorem ipsum dolor sit amet, consectetur.
+                    +video-card("Lập trình Perl cơ bản")
                 .col-md-3
-                    .video-card(href="#")
-                        a(href="#")
-                            img(src="https://unsplash.it/1024/768", alt="", class="img-responsive img-rounded")
-                            .caption
-                                p Học lập trình Perl cơ bản
+                    +video-card("Lập trình Perl cơ bản")
             .row
                 .col-md-12.text-center
                     a.btn.btn-danger.btn-lg(href="#") Xem tất cả
@@ -86,25 +72,13 @@ block content
 
             .row
                 .col-md-3
-                    .video-card(href="#")
-                        img(src="https://unsplash.it/1024/768", alt="", class="img-responsive img-rounded")
-                        .caption
-                            p Học lập trình Perl cơ bản
+                    +video-card("Lập trình Perl cơ bản")
                 .col-md-3
-                    .video-card(href="#")
-                        img(src="https://unsplash.it/1024/768", alt="", class="img-responsive img-rounded")
-                        .caption
-                            p Học lập trình Perl cơ bản
+                    +video-card("Lập trình Perl cơ bản")
                 .col-md-3
-                    .video-card(href="#")
-                        img(src="https://unsplash.it/1024/768", alt="", class="img-responsive img-rounded")
-                        .caption
-                            p Học lập trình Perl cơ bản
+                    +video-card("Lập trình Perl cơ bản")
                 .col-md-3
-                    .video-card(href="#")
-                        img(src="https://unsplash.it/1024/768", alt="", class="img-responsive img-rounded")
-                        .caption
-                            p Học lập trình Perl cơ bản
+                    +video-card("Lập trình Perl cơ bản")
             .row
                 .col-md-12.text-center
                     a.btn.btn-danger.btn-lg(href="#") Xem tất cả
