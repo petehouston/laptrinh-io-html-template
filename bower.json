@@ -27,6 +27,7 @@
     "font-awesome": "^4.6.3"
   },
   "dependencies": {
-    "normalize-css": "normalize.css#^4.2.0"
+    "normalize-css": "normalize.css#^4.2.0",
+    "bootstrap": "^3.3.7"
   }
 }
