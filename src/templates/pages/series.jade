@@ -9,8 +9,11 @@ block css
 block js
     script(src="js/series.js")
 
-block main
+block header
+    include ../components/header
+    +header("Series lập trình", "Tổng hợp danh sách các series lập trình.")
 
+block main
     section#block-series
         include ../components/video-card
         .container

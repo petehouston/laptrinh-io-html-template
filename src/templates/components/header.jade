@@ -1,6 +1,7 @@
-header.master
-    .container
-        .row
-            .col-md-12
-                h1 #[i.fa.fa-th-list] Series lập trình
-                p Tổng hợp các series lập trình trên hệ thống.
+mixin header(title, subtitle)
+    header.master
+        .container
+            .row
+                .col-md-12
+                    h1 #[i.fa.fa-th-list] #{title}
+                    p= subtitle
