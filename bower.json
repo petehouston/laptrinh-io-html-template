@@ -1,5 +1,5 @@
 {
-  "name": "pandaa-html-template",
+  "name": "laptrinh-io-html-template",
   "description": "The HTML template for the web.",
   "main": "index.js",
   "authors": [
@@ -12,7 +12,7 @@
     "template",
     "ui"
   ],
-  "homepage": "https://github.com/petehouston/pandaa-html-template",
+  "homepage": "https://github.com/petehouston/laptrinh-io-html-template",
   "private": true,
   "ignore": [
     "**/.*",

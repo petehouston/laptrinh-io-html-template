@@ -1,5 +1,5 @@
 {
-  "name": "pandaa-html-template",
+  "name": "laptrinh-io-html-template",
   "version": "1.0.0",
   "description": "The HTML template for the web.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/petehouston/pandaa-html-template.git"
+    "url": "https://github.com/petehouston/laptrinh-io-html-template.git"
   },
   "keywords": [
     "html",
@@ -19,9 +19,9 @@
   "author": "Pete Houston <contact@petehouston.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/petehouston/pandaa-html-template/issues"
+    "url": "https://github.com/petehouston/laptrinh-io-html-template/issues"
   },
-  "homepage": "https://github.com/petehouston/pandaa-html-template",
+  "homepage": "https://github.com/petehouston/laptrinh-io-html-template",
   "devDependencies": {
     "browser-sync": "^2.13.0",
     "del": "^2.2.1",
