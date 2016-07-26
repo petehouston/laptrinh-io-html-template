@@ -2,7 +2,6 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,vietnamese';
 .navbar {
   border: none !important;
-  border-bottom: solid 1px #eaeaea !important;
   margin-bottom: 0 !important;
 }
 
@@ -15,6 +14,12 @@ footer {
 
 footer a {
   color: #fff;
+  transition: color 0.35s ease;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #f64747;
 }
 
 footer a.logo {
@@ -5243,7 +5248,7 @@ tbody.collapse.in {
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #fff;
+  color: #f64747;
   background-color: transparent;
 }
 
@@ -7815,7 +7820,6 @@ h2 {
 section {
   padding-top: 25px;
   padding-bottom: 50px;
-  background-color: #fff;
   margin-bottom: 35px;
 }
 
@@ -7841,6 +7845,10 @@ section {
   font-size: 120%;
 }
 
+#block-featured {
+  background-color: #fff;
+}
+
 #block-featured .feature-card {
   position: relative;
 }
@@ -7862,16 +7870,38 @@ section {
   text-overflow: ellipsis;
 }
 
+.video-card a:hover {
+  text-decoration: none;
+}
+
 .video-card .caption {
   margin-top: 10px;
 }
 
+#block-latest {
+  padding: 0;
+}
+
+#block-latest .container {
+  background-color: #fff;
+  padding-bottom: 25px;
+}
+
 #block-latest .row:last-child {
-  margin-top: 45px;
+  margin-top: 35px;
+}
+
+#block-series {
+  padding: 0;
+}
+
+#block-series .container {
+  background-color: #fff;
+  padding-bottom: 25px;
 }
 
 #block-series .row:last-child {
-  margin-top: 45px;
+  margin-top: 35px;
 }
 
 /*# sourceMappingURL=index.css.map */

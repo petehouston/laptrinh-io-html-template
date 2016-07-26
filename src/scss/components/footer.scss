@@ -6,6 +6,12 @@ footer {
 
     a {
         color: #fff;
+        transition: color 0.35s ease;
+
+        &:hover {
+            text-decoration: none;
+            color: $brand-danger;
+        }
     }
 
     a.logo {

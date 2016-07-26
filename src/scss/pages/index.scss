@@ -14,7 +14,6 @@ h2 {
 section {
     padding-top: 25px;
     padding-bottom: 50px;
-    background-color: #fff;
     margin-bottom: 35px;
 }
 
@@ -43,6 +42,7 @@ section {
 }
 
 #block-featured {
+    background-color: #fff;
 
     .feature-card {
         position: relative;
@@ -73,21 +73,38 @@ section {
 }
 
 .video-card {
-
+    a {
+        &:hover {
+            text-decoration: none;
+        }
+    }
     .caption {
         margin-top: 10px;
     }
 }
 
 #block-latest {
+    padding: 0;
+
+    .container {
+        background-color: #fff;
+        padding-bottom: 25px;
+    }
 
     .row:last-child {
-        margin-top: 45px;
+        margin-top: 35px;
     }
 }
 
 #block-series {
+    padding: 0;
+
+    .container {
+        background-color: #fff;
+        padding-bottom: 25px;
+    }
+
     .row:last-child {
-        margin-top: 45px;
+        margin-top: 35px;
     }
 }
