@@ -1,0 +1,100 @@
+@import '../base';
+
+body {
+    background-color: #f0f0f0;
+}
+
+section#block-info {
+    padding-top: 25px;
+    padding-bottom: 35px;
+
+    h5.group-heading {
+        text-transform: uppercase;
+        font-weight: 600;
+
+    }
+
+    .list-group {
+        &.meta {
+
+            .list-group-item {
+                width: 100%;
+                padding: 0;
+                height: 40px;
+                display: table;
+                border: none;
+                border-left: solid 2px $brand-warning;
+
+                span {
+                    height: 40px;
+                    line-height: 40px;
+                    display: table-cell;
+                    vertical-align: middle;
+                    padding-left: 20px;
+                    font-weight: 600;
+
+                    &.key {
+                        width: 50%;
+                    }
+
+                    &.value {
+                        background-color: $brand-warning;
+                        color: #eee;
+                    }
+
+                    a {
+                        color: rgba(255, 255, 255, 0.8);
+                        transition: color 0.35s ease;
+                        &:hover {
+                            text-decoration: none;
+                            color: rgba(255, 255, 255, 1.0);
+                        }
+                    }
+                }
+            }
+        }
+
+        &.videos {
+
+            .list-group-item {
+                padding: 0;
+                height: 40px;
+                width: 100%;
+                display: table;
+                border: none;
+                margin-bottom: 10px;
+
+                a {
+                    display: block;
+                    &:hover {
+                        text-decoration: none;
+                    }
+
+                    span {
+                        height: 40px;
+                        line-height: 40px;
+                        display: table-cell;
+                        vertical-align: middle;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+
+                    span.number {
+                        background-color: $brand-info;
+                        color: #fff;
+                        font-weight: 600;
+                    }
+
+                    span.length {
+                        background-color: #e0e0e0;
+                        font-style: italic;
+                    }
+
+                    span.title {
+
+                    }
+                }
+            }
+        }
+    }
+}
