@@ -12,5 +12,11 @@ nav(class="navbar navbar-default", role="navigation")
             .collapse.navbar-collapse.navbar-ex1-collapse
                 ul.nav.navbar-nav
                 ul.nav.navbar-nav.navbar-right
-                    li: a(href="") Danh sách video
+                    li.dropdown
+                        a(href="#", class="dropdown-toggle", data-toggle="dropdown") Danh sách video #[b.caret]
+                        ul.dropdown-menu
+                            li: a(href="series.html") Series lập trình
+                            li: a(href="videos.html") Tổng hợp video
                     li: a(href="") Giới thiệu
+
+
