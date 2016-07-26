@@ -1,0 +1,10 @@
+.video-card {
+    a {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    .caption {
+        margin-top: 10px;
+    }
+}
