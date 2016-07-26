@@ -1,0 +1,157 @@
+@import '../base';
+
+body {
+    background-color: #f0f0f0;
+}
+
+section {
+
+    .container {
+        background-color: #fff;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+section#block-series {
+    .container {
+        padding: 0;
+    }
+
+    .series {
+        height: 40px;
+        display: block;
+        width: 100%;
+
+        span.pseudo {
+            // height: 40px;
+            background-color: $brand-warning;
+            line-height: 40px;
+            // height: 40px;
+            display: inline-block;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        a {
+            display: inline-block;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-weight: 600;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+section#block-meta {
+    .container {
+        padding: 0;
+        background-color: transparent;
+
+        .row {
+            margin-bottom: 25px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .meta {
+        height: 40px;
+        background-color: #fff;
+
+        span {
+            display: inline-block;
+            line-height: 40px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-weight: 600;
+
+            &.pseudo {
+                background-color: $brand-info;
+                color: #fff;
+            }
+
+            &.value {
+                a {
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+
+}
+
+section#block-list {
+    .container {
+        padding: 0;
+        background-color: transparent;
+    }
+    h3 {
+        border-bottom: solid 1px #ccc;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+    .list-group {
+
+        .list-group-item {
+            padding: 0;
+            height: 40px;
+            width: 100%;
+            display: table;
+            border: none;
+            margin-bottom: 10px;
+
+            a {
+                display: block;
+                &:hover {
+                    text-decoration: none;
+                }
+
+                span {
+                    height: 40px;
+                    line-height: 40px;
+                    display: table-cell;
+                    vertical-align: middle;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+
+                span.number {
+                    background-color: $brand-info;
+                    color: #fff;
+                    font-weight: 600;
+                    min-width: 90px;
+                }
+
+                span.length {
+                    background-color: #e0e0e0;
+                    font-style: italic;
+                    min-width: 80px;
+                }
+
+                span.title {
+
+                }
+            }
+        }
+    }
+}
+
+section#block-comments {
+    h3 {
+        border-bottom: solid 1px #ccc;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+}

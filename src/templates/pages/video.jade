@@ -1,0 +1,89 @@
+extends ../layouts/page
+
+block title
+    title Video
+
+block css
+    link(rel="stylesheet", href="css/video.css")
+
+block js
+    script(src="js/video.js")
+
+block header
+    include ../components/header
+    +header("Cài đặt môi trường", "Triển khai cài đặt môi trường cho lập trình Python.")
+
+block main
+
+    section#block-series
+        .container
+            .series
+                span.pseudo Series
+                a(href="series-single.html") Học lập trình Python cơ bản
+
+    section#block-meta
+        .container
+            .row
+                .col-md-6
+                    .meta
+                        span.pseudo Ngày lên sóng
+                        span.value 12/07/2016
+                .col-md-6
+                    .meta
+                        span.pseudo Khác
+                        span.value
+                            a(href="#") Tải mã nguồn
+                            a(href="#block-comments") Trao đổi
+            .row
+                .col-md-12
+                    .meta
+                        span.pseudo Tag
+                        span.value
+                            a(href="#") PHP
+                            a(href="#") Laravel
+                            a(href="#") Python
+
+
+    section#block-video
+        .container
+            .row
+                .col-md-12
+                    .embed-responsive.embed-responsive-16by9
+                        iframe.embed-responsive-item(src="//www.youtube.com/embed/ePbKGoIGAXY")
+
+
+    section#block-list
+        .container
+            .row
+                .col-md-12
+                    h3 #[i.fa.fa-th-list] Danh sách video
+            .row
+                .col-md-12
+                    ul.list-group.videos
+                        li.list-group-item
+                            a(href="video.html")
+                                span.number Bài 1
+                                span.length 6:55
+                                span.title Cài đặt môi trường
+                        li.list-group-item
+                            a(href="video.html")
+                                span.number Bài 12
+                                span.length 8:12
+                                span.title Cài đặt môi trường
+                        li.list-group-item
+                            a(href="video.html")
+                                span.number Bài 1
+                                span.length 4:02
+                                span.title Cài đặt môi trường
+
+    section#block-comments
+        .container
+            .row
+                .col-md-12
+                    h3 #[i.fa.fa-comment] Trao đổi
+            .row
+                .col-md-12
+                    .fb-comments(data-href="http://laptrinh.io", data-width="100%", data-numposts="5")
+
+
+
