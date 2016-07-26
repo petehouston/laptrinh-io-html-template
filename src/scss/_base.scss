@@ -117,5 +117,7 @@ $navbar-default-toggle-border-color:       #ddd !default;
 
 @import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables';
 @import './components/navbar';
+@import './components/header';
 @import './components/footer';
+@import './components/video-card';
 @import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap';

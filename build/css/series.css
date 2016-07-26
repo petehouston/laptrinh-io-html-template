@@ -7825,90 +7825,15 @@ body {
   background-color: #f0f0f0;
 }
 
-h2 {
-  border-bottom: solid 1px #eaeaea;
-  padding-bottom: 10px;
-  margin-bottom: 25px;
-  text-transform: uppercase;
-}
-
-section {
-  padding-top: 25px;
-  padding-bottom: 50px;
-  margin-bottom: 35px;
-}
-
-#masthead {
-  min-height: 550px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.3)), url("../img/bg-masthead.jpg");
-  background-position: center;
-  background-size: cover;
-  color: #fff;
-  text-align: center;
-  padding-top: 150px;
-}
-
-#masthead h1 {
-  text-transform: uppercase;
-  padding: 10px 25px;
-  background-color: #f64747;
-  display: inline-block;
-  margin-bottom: 50px;
-}
-
-#masthead p {
-  font-size: 120%;
-}
-
-#block-featured {
-  background-color: #fff;
-}
-
-#block-featured .feature-card {
-  position: relative;
-}
-
-#block-featured .feature-card .meta {
-  position: absolute;
-  display: block;
-  width: 100%;
-  padding: 10px 15px;
-  background-color: rgba(246, 71, 71, 0.8);
-  left: 0;
-  bottom: 0;
-  color: #fff;
-}
-
-#block-featured .feature-card .meta .title {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-#block-latest {
-  padding: 0;
-}
-
-#block-latest .container {
-  background-color: #fff;
-  padding-bottom: 25px;
-}
-
-#block-latest .row:last-child {
-  margin-top: 35px;
-}
-
 #block-series {
-  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #block-series .container {
   background-color: #fff;
-  padding-bottom: 25px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
-#block-series .row:last-child {
-  margin-top: 35px;
-}
-
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=series.css.map */
