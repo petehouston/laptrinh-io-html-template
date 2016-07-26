@@ -83,11 +83,13 @@ section#block-info {
                         background-color: $brand-info;
                         color: #fff;
                         font-weight: 600;
+                        min-width: 90px;
                     }
 
                     span.length {
                         background-color: #e0e0e0;
                         font-style: italic;
+                        min-width: 80px;
                     }
 
                     span.title {

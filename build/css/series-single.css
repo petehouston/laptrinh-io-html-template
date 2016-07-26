@@ -7940,11 +7940,13 @@ section#block-info .list-group.videos .list-group-item a span.number {
   background-color: #19b5fe;
   color: #fff;
   font-weight: 600;
+  min-width: 90px;
 }
 
 section#block-info .list-group.videos .list-group-item a span.length {
   background-color: #e0e0e0;
   font-style: italic;
+  min-width: 80px;
 }
 
 /*# sourceMappingURL=series-single.css.map */
