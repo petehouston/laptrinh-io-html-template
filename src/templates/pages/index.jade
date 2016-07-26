@@ -1,0 +1,108 @@
+extends ../layouts/master.jade
+
+block title
+    title Pandaa HTML Template by Pete Houston
+
+block append css
+    link(rel="stylesheet", href="css/index.css")
+
+block append js
+    script(src="js/index.js")
+
+block content
+
+    include ../components/navbar
+
+    section#masthead
+        .container
+            h1 Kênh dạy lập trình tốt nhất Việt Nam
+            p Miễn phí - Hiệu quả - Sinh động
+
+    section#block-featured
+        .container
+            .row
+                .col-md-12
+                    h2 #[i.fa.fa-star] Video nổi bật
+            .row
+                .col-md-4
+                    .feature-card
+                        a(href="#")
+                            img(src="https://unsplash.it/1200/768", class="img-responsive img-rounded")
+                        .meta
+                            .title Intro to Python programming
+                .col-md-4
+                    .feature-card
+                        a(href="#")
+                            img(src="https://unsplash.it/1200/768", class="img-responsive img-rounded")
+                        .meta
+                            .title Intro to Python programming
+                .col-md-4
+                    .feature-card
+                        a(href="#")
+                            img(src="https://unsplash.it/1200/768", class="img-responsive img-rounded")
+                        .meta
+                            .title Intro to Python programming
+
+    section#block-latest
+        .container
+            .row
+                .col-md-12
+                    h2 #[i.fa.fa-star] Mới cập nhật
+
+            .row
+                .col-md-3
+                    .video-card
+                        img(src="https://unsplash.it/1024/768", alt="", class="img-responsive img-rounded")
+                        .caption
+                            p Học lập trình Perl cơ bản
+                .col-md-3
+                    .video-card
+                        img(src="https://unsplash.it/1024/768", alt="", class="img-responsive img-rounded")
+                        .caption
+                            p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque reprehenderit, suscipit molestias.
+                .col-md-3
+                    .video-card
+                        img(src="https://unsplash.it/1024/768", alt="", class="img-responsive img-rounded")
+                        .caption
+                            p  Lorem ipsum dolor sit amet, consectetur.
+                .col-md-3
+                    .video-card
+                        img(src="https://unsplash.it/1024/768", alt="", class="img-responsive img-rounded")
+                        .caption
+                            p Học lập trình Perl cơ bản
+            .row
+                .col-md-12.text-center
+                    a.btn.btn-danger.btn-lg(href="#") Xem tất cả
+
+    section#block-series
+        .container
+            .row
+                .col-md-12
+                    h2 #[i.fa.fa-star] Series lập trình
+
+            .row
+                .col-md-3
+                    .video-card
+                        img(src="https://unsplash.it/1024/768", alt="", class="img-responsive img-rounded")
+                        .caption
+                            p Học lập trình Perl cơ bản
+                .col-md-3
+                    .video-card
+                        img(src="https://unsplash.it/1024/768", alt="", class="img-responsive img-rounded")
+                        .caption
+                            p Học lập trình Perl cơ bản
+                .col-md-3
+                    .video-card
+                        img(src="https://unsplash.it/1024/768", alt="", class="img-responsive img-rounded")
+                        .caption
+                            p Học lập trình Perl cơ bản
+                .col-md-3
+                    .video-card
+                        img(src="https://unsplash.it/1024/768", alt="", class="img-responsive img-rounded")
+                        .caption
+                            p Học lập trình Perl cơ bản
+            .row
+                .col-md-12.text-center
+                    a.btn.btn-danger.btn-lg(href="#") Xem tất cả
+
+    include ../components/footer

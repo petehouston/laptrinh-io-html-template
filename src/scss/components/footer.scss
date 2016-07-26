@@ -1,0 +1,64 @@
+footer {
+    padding-top: 35px;
+    padding-bottom: 25px;
+    background-color: $brand-primary;
+    color: #fff;
+
+    a {
+        color: #fff;
+    }
+
+    a.logo {
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+
+    p.subtitle {
+        text-style: italic;
+    }
+
+    p.copy {
+        margin-top: 25px;
+    }
+
+    .footer-menu {
+        list-style-type: none;
+        padding-left: 0;
+
+        li {
+            line-height: 1.85;
+
+            &.heading {
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+
+            &.item {
+
+            }
+        }
+    }
+
+    .footer-social {
+        list-style-type: none;
+        padding-left: 0;
+
+        li {
+
+            &.heading {
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+
+            &.item {
+                display: inline-block;
+                margin-right: 10px;
+
+                a {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

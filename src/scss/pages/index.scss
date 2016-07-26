@@ -1,0 +1,93 @@
+@import '../base';
+
+body {
+    background-color: #f0f0f0;
+}
+
+h2 {
+    border-bottom: solid 1px #eaeaea;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+section {
+    padding-top: 25px;
+    padding-bottom: 50px;
+    background-color: #fff;
+    margin-bottom: 35px;
+}
+
+#masthead {
+    min-height: 550px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.3)),
+            url('../img/bg-masthead.jpg');
+    background-position: center;
+    background-size: cover;
+
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+
+    h1 {
+        text-transform: uppercase;
+        padding: 10px 25px;
+        background-color: $brand-danger;
+        display: inline-block;
+        margin-bottom: 50px;
+    }
+
+    p {
+        font-size: 120%;
+    }
+}
+
+#block-featured {
+
+    .feature-card {
+        position: relative;
+
+        a {
+            img {
+
+            }
+        }
+
+        .meta {
+            position: absolute;
+            display: block;
+            width: 100%;
+            padding: 10px 15px;
+            background-color: rgba(246, 71, 71, 0.8);
+            left: 0;
+            bottom: 0;
+            color: #fff;
+
+            .title {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}
+
+.video-card {
+
+    .caption {
+        margin-top: 10px;
+    }
+}
+
+#block-latest {
+
+    .row:last-child {
+        margin-top: 45px;
+    }
+}
+
+#block-series {
+    .row:last-child {
+        margin-top: 45px;
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "pandaa-html-template",
+  "version": "1.0.0",
+  "description": "The HTML template for the web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/petehouston/pandaa-html-template.git"
+  },
+  "keywords": [
+    "html",
+    "web",
+    "template",
+    "ui"
+  ],
+  "author": "Pete Houston <contact@petehouston.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petehouston/pandaa-html-template/issues"
+  },
+  "homepage": "https://github.com/petehouston/pandaa-html-template",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}
