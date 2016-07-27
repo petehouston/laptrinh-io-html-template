@@ -1,0 +1,19 @@
+@import '../base';
+
+body {
+    background-color: #f0f0f0;
+}
+
+section#block-about {
+    margin-top: 35px;
+    margin-bottom: 50px;
+
+    .container {
+        background-color: #fff;
+        padding: 25px;
+    }
+
+    p {
+        line-height: 2.0;
+    }
+}

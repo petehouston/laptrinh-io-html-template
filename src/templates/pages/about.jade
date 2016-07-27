@@ -1,0 +1,35 @@
+extends ../layouts/page
+
+block title
+    title Giới thiệu
+
+block css
+    link(rel="stylesheet", href="css/about.css")
+
+block js
+    script(src="js/about.js")
+
+block header
+    include ../components/header
+    +header("Giới thiệu", "Đôi điều giới thiệu về laptrinh.io")
+
+block main
+
+    section#block-about
+        .container
+            p #[strong laptrinh.io] là một trang web chia sẻ các video hướng dẫn lập trình miễn phí, được xây dựng bởi #[a(href="http://petehouston.com") Pete Houston], với mục đích chia sẻ những video lập trình với hướng dẫn sinh động, trực quan và tạo cảm giác thích thú cho người học, đặc biệt là các bạn sinh viên đang muốn trở thành những lập trình viên tương lai.
+
+            h3 Hệ thống video
+            p Hệ thống video lập trình trên #[strong laptrinh.io] bao gồm:
+            p - #[strong Series]: bao gồm nhiều video cùng thực hiện một mục đích nào đó, mỗi series được coi như một khoá học để học hoặc nhiều kĩ năng.
+            p - #[strong Video]: không thuộc nhóm series nào, thì sẽ là những clip ngắn gọn, nhằm mục đích giải thích, hay chia sẻ một điều nhỏ ngắn gọn, có thể là một thủ thuật, hay mẹo lập trình, hoặc là một vài điểm nhấn ghi chú nào đó trọng lập trình, hoặc là giới thiệu về công nghệ nào đó mới mẻ...
+
+            h4 Series
+            p Các series lập trình thường có hai trạng thái:
+            p #[span.label.label-warning.label-lg Đang phát]: tức là vẫn còn nhiều video ra dần. Các bạn chú ý là các video trong một series không thể lên hết một lúc.
+            p #[span.label.label-success Hoàn thiện]: tức là đã hoàn thiện, đồng nghĩa với việc bạn có thể theo dõi cả series này đủ để học kiến thức trong series.
+
+            h3 Bạn muốn học lập trình trực tiếp với tác giả?
+            p Như đã giới thiệu ở trên, người sáng lập và phát triển laptrinh.io là Pete Houston, là một lập trình viên nhiều kinh nghiệm đã từng công tác và làm việc ở các công ty và tập đoàn lớn như FPT, Naver, LINE, ... và các bạn có thể thấy được hiệu quả phần nào khi học lập trình qua hệ thống video chia sẻ miễn phí do anh tạo trên laptrinh.io.
+            p Nếu bạn thực sự muốn trở thành một lập trình viên chuyên nghiệp, muốn được các nhà tuyển dụng săn đón thay vì phải đi săn việc ở các nhà tuyển dụng, muốn có một nền tảng lập trình vững chắc đầu tiên ngay khi còn đang đi học hoặc muốn học thêm nhiều kĩ năng mới mẻ, bạn có thể đăng kí học lập trình qua các lớp học giảng dạy của anh trên trang web #[strong KodeMate] (http://kodemate.com).
+
