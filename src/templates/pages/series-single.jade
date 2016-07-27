@@ -19,13 +19,16 @@ block main
         include ../components/video-card
         .container
             .row
-                .col-md-3
+                .col-md-4
+                    img(src="https://unsplash.it/1024/768", alt="", class="img-responsive")
                     h5.group-heading Thông tin
                     ul.list-group.meta
                         li.list-group-item #[span.key #[i.fa.fa-file-movie-o] Số bài:] #[span.value 12]
                         li.list-group-item #[span.key #[i.fa.fa-clock-o] Thời lượng:] #[span.value 180 phút]
                         li.list-group-item #[span.key #[i.fa.fa-cloud-download] Mã nguồn:] #[span.value #[a(href="#") Download]]
-                .col-md-9
+
+                .col-md-8
+
                     h5.group-heading Danh sách video
                     ul.list-group.videos
                         li.list-group-item
