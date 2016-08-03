@@ -17,6 +17,19 @@ section {
     margin-bottom: 35px;
 }
 
+.btn-browse {
+    padding: 10px 15px;
+    background-color: $brand-danger;
+    border-color: $brand-danger;
+
+    transition: background-color 0.35s ease;
+
+    &:hover {
+        background-color: darken($brand-danger, 20%);
+        border-color: darken($brand-danger, 20%);
+    }
+}
+
 #masthead {
     min-height: 550px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.3)),

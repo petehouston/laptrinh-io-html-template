@@ -1,0 +1,74 @@
+extends ../layouts/page
+
+block title
+    title Series lập trình
+
+block css
+    link(rel="stylesheet", href="css/tags.css")
+
+block js
+    script(src="js/tags.js")
+
+block header
+    include ../components/header
+    +header("Tag: HTML", "Ngôn ngữ lập trình web")
+
+block main
+    section#block-tags
+        .container
+            .row
+                .col-md-3
+                    .card.card-menu
+                        ul.nav.nav-pills.nav-stacked
+                            li.active
+                                a(href="#") #[i.fa.fa-tags] All #[span.badge.pull-right 12]
+                            li
+                                a(href="#") #[i.fa.fa-tag] PHP
+                            li
+                                a(href="#") Java
+                .col-md-9
+                    .card.card-content
+                        .card-header
+                            h4.card-title Có 24 videos
+                            hr
+                        .card-body
+                            include ../components/video-card
+                            .row
+                                .col-md-4
+                                    +video-card("Lập trình Perl cơ bản")
+                                .col-md-4
+                                    +video-card("Lập trình Perl cơ bản")
+                                .col-md-4
+                                    +video-card("Lập trình Perl cơ bản")
+                            .row
+                                .col-md-4
+                                    +video-card("Lập trình Perl cơ bản")
+                                .col-md-4
+                                    +video-card("Lập trình Perl cơ bản")
+                                .col-md-4
+                                    +video-card("Lập trình Perl cơ bản")
+                            .row
+                                .col-md-4
+                                    +video-card("Lập trình Perl cơ bản")
+                                .col-md-4
+                                    +video-card("Lập trình Perl cơ bản")
+                                .col-md-4
+                                    +video-card("Lập trình Perl cơ bản")
+                            .row
+                                .col-md-4
+                                    +video-card("Lập trình Perl cơ bản")
+                                .col-md-4
+                                    +video-card("Lập trình Perl cơ bản")
+                                .col-md-4
+                                    +video-card("Lập trình Perl cơ bản")
+                            .row
+                                .col-md-12.text-center
+                                    ul.pagination
+                                        li: #[a(href="#") &laquo;]
+                                        li.active: #[a(href="#") 1]
+                                        li: #[a(href="#") 2]
+                                        li: #[a(href="#") 3]
+                                        li: #[a(href="#") 4]
+                                        li: #[a(href="#") &raquo;]
+
+

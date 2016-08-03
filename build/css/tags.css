@@ -7871,15 +7871,17 @@ body {
   background-color: #f0f0f0;
 }
 
-#block-series {
-  margin-top: 50px;
-  margin-bottom: 50px;
+#block-tags {
+  margin-top: 25px;
+  margin-bottom: 35px;
 }
 
-#block-series .container {
+#block-tags .card {
   background-color: #fff;
-  padding-top: 35px;
-  padding-bottom: 35px;
 }
 
-/*# sourceMappingURL=series.css.map */
+#block-tags .card-content {
+  padding: 15px;
+}
+
+/*# sourceMappingURL=tags.css.map */

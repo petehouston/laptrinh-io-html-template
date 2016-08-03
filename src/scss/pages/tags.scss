@@ -1,0 +1,18 @@
+@import '../base';
+
+body {
+    background-color: #f0f0f0;
+}
+
+#block-tags {
+    margin-top: 25px;
+    margin-bottom: 35px;
+
+    .card {
+        background-color: #fff;
+    }
+
+    .card-content {
+        padding: 15px;
+    }
+}
