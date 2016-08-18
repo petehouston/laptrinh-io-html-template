@@ -1,0 +1,56 @@
+@import '../base';
+
+body {
+    background-color: #f0f0f0;
+}
+
+#block-testimonials {
+    margin-top: 35px;
+    margin-bottom: 50px;
+
+    .container {
+        background-color: #ffffff;
+        padding: 25px;
+    }
+
+    .add-testimonial {
+        p {
+            margin-top: 20px;
+            font-size: 13px;
+        }
+
+        a {
+            border-bottom: solid 1px;
+
+            transition: color 0.3s ease;
+            &:hover {
+                text-decoration: none;
+                color: $brand-danger;
+            }
+        }
+    }
+}
+
+.testimonial-card {
+    margin: 35px auto;
+
+    .card-image {
+        width: 64px;
+        position: absolute;
+    }
+
+    .card-content {
+        font-size: 13px;
+        margin-left: 85px;
+
+        .card-name {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .card-message {
+            margin-top: 10px;
+
+        }
+    }
+}

@@ -1,0 +1,56 @@
+extends ../layouts/page
+
+block title
+    title Chia sẻ
+
+block css
+    link(rel="stylesheet", href="css/testimonials.css")
+
+block js
+    script(src="js/testimonials.js")
+
+block header
+    include ../components/header
+    +header("Chia sẻ", "Lời chia sẻ đánh giá của các bạn về laptrinh.io")
+
+block main
+
+    section#block-testimonials
+        include ../components/testimonial-card
+        .container
+            .row
+                .col-md-4
+                    +testimonial-card("Nguyễn Văn Việt", "Rất hay và bổ ích")
+                .col-md-4
+                    +testimonial-card("Trần Thị Tươi", "Anh hướng dẫn hay quá")
+                .col-md-4
+                    +testimonial-card("Hoàng Thu Trang", "Rất dễ hiểu, chân thực")
+            .row
+                .col-md-4
+                    +testimonial-card("Đặng Tiến Đông", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio mollitia facere, exercitationem.")
+                .col-md-4
+                    +testimonial-card(" Lorem ipsum dolor.", " Lorem ipsum dolor sit amet, consectetur adipisicing elit. In a autem natus minima debitis nostrum perspiciatis quo tempora excepturi ipsa.")
+                .col-md-4
+                    +testimonial-card(" Lorem ipsum.", " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum est neque odio necessitatibus quidem deserunt doloremque nostrum, non debitis alias minus nisi laudantium dolorem veritatis quasi ipsa saepe praesentium. Eum.")
+            .row
+                .col-md-4
+                    +testimonial-card(" Lorem ipsum.", " Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, animi ipsam quia excepturi tempore repellendus.")
+                .col-md-4
+                    +testimonial-card(" Lorem ipsum.", " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, quos, officia.")
+                .col-md-4
+                    +testimonial-card(" Lorem ipsum.", " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores fugit, consectetur consequatur sed libero distinctio sit!")
+
+            .row
+                .col-md-6.text-center
+                    ul.pagination
+                        li: #[a(href="#") &laquo;]
+                        li: #[a(href="#") 1]
+                        li: #[a(href="#") 2]
+                        li: #[a(href="#") 3]
+                        li: #[a(href="#") 4]
+                        li: #[a(href="#") 5]
+                        li: #[a(href="#") 6]
+                        li: #[a(href="#") &raquo;]
+                .col-md-6.text-center.add-testimonial
+                    p #[i.fa.fa-thumbs-up] Nếu như bạn cảm thấy laptrinh.io có ích và giúp bạn phần nào khó khăn trong việc tìm hiểu học lập trình, hãy để lại lời #[a(href="#") chia sẻ tới mọi người].
+
